@@ -2,9 +2,7 @@ import React from 'react';
 // import { names_ICON } from './tools';
 
 export interface SVGProps{
-    classes?: string,
-    style?: string,
-    type: string
+
 }
 export default class  SVG extends React.Component<SVGProps, any>{
     constructor(props: any){

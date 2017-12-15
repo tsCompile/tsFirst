@@ -3,9 +3,32 @@
     "outDir": "./dist/",
     "sourceMap": true,
     "strictNullChecks": true,   // enable strict null checks as a best practice
-    "module": "es6",            // specifiy module code generation
-    "jsx": "preserve",             // use typescript to transpile jsx to js
-    "target": "es5",            // specify ECMAScript target version
+    // "jsx": "preserve",             // use typescript to transpile jsx to js
+    // "module": "es6",            // specifiy module code generation
+    // "target": "es5",            // specify ECMAScript target version
+    // "module": "commonjs",
+    // "target": "es2017",
+    // "lib": [
+    //     "dom",
+    //     "es6",
+    //     "dom.iterable",
+    //     "scripthost",
+    //     "es2017"
+    // ],
+    // "baseUrl": ".",
+    // "paths": {
+    //   "*": [
+    //     "*",
+    //   ]
+    // },
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
     "allowSyntheticDefaultImports": true,  // 允许
     "noImplicitAny": true,
     "noImplicitReturns": true,
