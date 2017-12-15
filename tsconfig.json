@@ -1,0 +1,29 @@
+{
+  "compilerOptions":{
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strictNullChecks": true,   // enable strict null checks as a best practice
+    "module": "es6",            // specifiy module code generation
+    "jsx": "preserve",             // use typescript to transpile jsx to js
+    "target": "es5",            // specify ECMAScript target version
+    "allowSyntheticDefaultImports": true,  // 允许
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "types": [
+      "node",
+      "react",
+      "react-dom",
+      "react-router-dom"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "./src/**/*"
+  ]
+}
